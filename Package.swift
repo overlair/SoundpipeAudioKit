@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/AudioKit/KissFFT", from: "1.0.0"),
         .package(url: "https://github.com/AudioKit/AudioKit", from: "5.6.0"),
-        .package(url: "https://github.com/overlair/AudioKitEX", from: "5.5.0"),
+        .package(url: "https://github.com/overlair/AudioKitEX", branch: "main"),
     ],
     targets: [
         .target(name: "Soundpipe",
